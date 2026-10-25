@@ -1,0 +1,3894 @@
+// .flutter-plugins-dependencies
+{"info":"This is a generated file; do not edit or check into version control.","plugins":{"ios":[{"name":"cloud_firestore","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\cloud_firestore-6.10.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_auth","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_auth-6.7.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_core","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_core-4.15.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"android":[{"name":"cloud_firestore","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\cloud_firestore-6.10.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_auth","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_auth-6.7.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_core","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_core-4.15.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"macos":[{"name":"cloud_firestore","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\cloud_firestore-6.10.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_auth","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_auth-6.7.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_core","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_core-4.15.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"linux":[],"windows":[{"name":"cloud_firestore","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\cloud_firestore-6.10.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_auth","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_auth-6.7.0\\\\","native_build":true,"dependencies":["firebase_core"],"dev_dependency":false},{"name":"firebase_core","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_core-4.15.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"web":[{"name":"cloud_firestore_web","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\cloud_firestore_web-5.7.3\\\\","dependencies":["firebase_core_web"],"dev_dependency":false},{"name":"firebase_auth_web","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_auth_web-6.3.0\\\\","dependencies":["firebase_core_web"],"dev_dependency":false},{"name":"firebase_core_web","path":"C:\\\\Users\\\\usuario\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\firebase_core_web-3.12.0\\\\","dependencies":[],"dev_dependency":false}]},"dependencyGraph":[{"name":"cloud_firestore","dependencies":["cloud_firestore_web","firebase_core"]},{"name":"cloud_firestore_web","dependencies":["firebase_core","firebase_core_web"]},{"name":"firebase_auth","dependencies":["firebase_auth_web","firebase_core"]},{"name":"firebase_auth_web","dependencies":["firebase_core","firebase_core_web"]},{"name":"firebase_core","dependencies":["firebase_core_web"]},{"name":"firebase_core_web","dependencies":[]}],"date_created":"2026-09-27 20:51:04.187595","version":"3.47.5","swift_package_manager_enabled":{"ios":false,"macos":false}}
+
+--------------------------------------------------------------------------------
+
+// .gitignore
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+
+--------------------------------------------------------------------------------
+
+// .metadata
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled and should not be manually edited.
+
+version:
+  revision: "6a19cca56475dbfba1478ee68d7bd0c2ef891da1"
+  channel: "stable"
+
+project_type: app
+
+# Tracks metadata for the flutter migrate command
+migration:
+  platforms:
+    - platform: root
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: android
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: ios
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: linux
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: macos
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: web
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+    - platform: windows
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+
+  # User provided section
+
+  # List of Local paths (relative to this file) that should be
+  # ignored by the migrate tool.
+  #
+  # Files that are not part of the templates will be ignored by default.
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
+
+
+--------------------------------------------------------------------------------
+
+// analysis_options.yaml
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+
+--------------------------------------------------------------------------------
+
+// firebase.json
+{"flutter":{"platforms":{"android":{"default":{"projectId":"dentcalm","appId":"1:514607329104:android:ed82e9f488ee1d5be70655","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"dentcalm","configurations":{"android":"1:514607329104:android:ed82e9f488ee1d5be70655","web":"1:514607329104:web:a272ff2df5ef536be70655"}}}}}}
+
+--------------------------------------------------------------------------------
+
+// pubspec.yaml
+name: app_odontologo
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+
+--------------------------------------------------------------------------------
+
+// README.md
+# app_odontologo
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+
+--------------------------------------------------------------------------------
+
+// lib/firebase_options.dart
+// File generated by FlutterFire CLI.
+// ignore_for_file: type=lint
+import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, TargetPlatform;
+
+/// Default [FirebaseOptions] for use with your Firebase apps.
+///
+/// Example:
+/// ```dart
+/// import 'firebase_options.dart';
+/// // ...
+/// await Firebase.initializeApp(
+///   options: DefaultFirebaseOptions.currentPlatform,
+/// );
+/// ```
+class DefaultFirebaseOptions {
+  static FirebaseOptions get currentPlatform {
+    if (kIsWeb) {
+      return web;
+    }
+    switch (defaultTargetPlatform) {
+      case TargetPlatform.android:
+        return android;
+      case TargetPlatform.iOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.macOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.windows:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      default:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
+    }
+  }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAyucKVLatl7jd-nB1vgiXkwHp8AKlvY0c',
+    appId: '1:514607329104:web:a272ff2df5ef536be70655',
+    messagingSenderId: '514607329104',
+    projectId: 'dentcalm',
+    authDomain: 'dentcalm.firebaseapp.com',
+    storageBucket: 'dentcalm.firebasestorage.app',
+    measurementId: 'G-2HGY7Q9V1H',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyA_KQ_TSsWBd7_hEvbLB1VZzP5tZNEVrGU',
+    appId: '1:514607329104:android:ed82e9f488ee1d5be70655',
+    messagingSenderId: '514607329104',
+    projectId: 'dentcalm',
+    storageBucket: 'dentcalm.firebasestorage.app',
+  );
+}
+
+
+--------------------------------------------------------------------------------
+
+// lib/main.dart
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+import 'firebase_options.dart';
+import 'screens/patients_screen.dart';
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  runApp(const DentCalmApp());
+}
+
+class DentCalmApp extends StatelessWidget {
+  const DentCalmApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'DentCalm',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF2D7FF9),
+        ),
+      ),
+      home: const AuthGate(),
+    );
+  }
+}
+
+class AuthGate extends StatelessWidget {
+  const AuthGate({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            body: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+
+        if (snapshot.hasData) {
+          return const HomeScreen();
+        }
+
+        return const LoginScreen();
+      },
+    );
+  }
+}
+
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+
+  bool loading = false;
+  String? errorMessage;
+
+  Future<void> login() async {
+    setState(() {
+      loading = true;
+      errorMessage = null;
+    });
+
+    try {
+      await FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: emailController.text.trim(),
+        password: passwordController.text.trim(),
+      );
+    } on FirebaseAuthException catch (e) {
+      setState(() {
+        errorMessage = _firebaseError(e.code);
+      });
+    } finally {
+      if (mounted) {
+        setState(() {
+          loading = false;
+        });
+      }
+    }
+  }
+
+  String _firebaseError(String code) {
+    switch (code) {
+      case 'invalid-credential':
+        return 'Correo o contraseña incorrectos.';
+      case 'invalid-email':
+        return 'El correo electrónico no es válido.';
+      case 'user-disabled':
+        return 'Esta cuenta está deshabilitada.';
+      default:
+        return 'No se pudo iniciar sesión.';
+    }
+  }
+
+  @override
+  void dispose() {
+    emailController.dispose();
+    passwordController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFEFF6FF),
+      body: Center(
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: 430,
+            ),
+            child: Card(
+              margin: const EdgeInsets.all(24),
+              elevation: 6,
+              child: Padding(
+                padding: const EdgeInsets.all(30),
+                child: Column(
+                  children: [
+                    const Icon(
+                      Icons.medical_services_outlined,
+                      size: 70,
+                      color: Color(0xFF2D7FF9),
+                    ),
+
+                    const SizedBox(height: 15),
+
+                    const Text(
+                      'DentCalm',
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 8),
+
+                    const Text(
+                      'Monitorización respiratoria',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
+
+                    const SizedBox(height: 30),
+
+                    TextField(
+                      controller: emailController,
+                      keyboardType: TextInputType.emailAddress,
+                      decoration: const InputDecoration(
+                        labelText: 'Correo electrónico',
+                        prefixIcon: Icon(Icons.email_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 16),
+
+                    TextField(
+                      controller: passwordController,
+                      obscureText: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Contraseña',
+                        prefixIcon: Icon(Icons.lock_outline),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    if (errorMessage != null) ...[
+                      const SizedBox(height: 12),
+                      Text(
+                        errorMessage!,
+                        style: const TextStyle(
+                          color: Colors.red,
+                        ),
+                      ),
+                    ],
+
+                    const SizedBox(height: 24),
+
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: loading ? null : login,
+                        child: Padding(
+                          padding: const EdgeInsets.all(14),
+                          child: loading
+                              ? const SizedBox(
+                                  height: 20,
+                                  width: 20,
+                                  child: CircularProgressIndicator(),
+                                )
+                              : const Text(
+                                  'Iniciar sesión',
+                                ),
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(height: 15),
+
+                    TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const RegisterScreen(),
+                          ),
+                        );
+                      },
+                      child: const Text(
+                        '¿Primera vez? Crear cuenta',
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
+
+  @override
+  State<RegisterScreen> createState() => _RegisterScreenState();
+}
+
+class _RegisterScreenState extends State<RegisterScreen> {
+  final nameController = TextEditingController();
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+  final confirmController = TextEditingController();
+
+  bool loading = false;
+  String? errorMessage;
+
+  Future<void> register() async {
+    if (passwordController.text != confirmController.text) {
+      setState(() {
+        errorMessage = 'Las contraseñas no coinciden.';
+      });
+      return;
+    }
+
+    setState(() {
+      loading = true;
+      errorMessage = null;
+    });
+
+    try {
+      final credential =
+          await FirebaseAuth.instance.createUserWithEmailAndPassword(
+        email: emailController.text.trim(),
+        password: passwordController.text.trim(),
+      );
+
+      await credential.user?.updateDisplayName(
+        nameController.text.trim(),
+      );
+
+      if (mounted) {
+        Navigator.pop(context);
+      }
+    } on FirebaseAuthException catch (e) {
+      setState(() {
+        errorMessage = _registerError(e.code);
+      });
+    } finally {
+      if (mounted) {
+        setState(() {
+          loading = false;
+        });
+      }
+    }
+  }
+
+  String _registerError(String code) {
+    switch (code) {
+      case 'weak-password':
+        return 'La contraseña es demasiado débil.';
+      case 'email-already-in-use':
+        return 'Ya existe una cuenta con ese correo.';
+      case 'invalid-email':
+        return 'El correo electrónico no es válido.';
+      default:
+        return 'No se pudo crear la cuenta.';
+    }
+  }
+
+  @override
+  void dispose() {
+    nameController.dispose();
+    emailController.dispose();
+    passwordController.dispose();
+    confirmController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFEFF6FF),
+      appBar: AppBar(
+        title: const Text('Crear cuenta'),
+      ),
+      body: Center(
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: 430,
+            ),
+            child: Card(
+              margin: const EdgeInsets.all(24),
+              child: Padding(
+                padding: const EdgeInsets.all(30),
+                child: Column(
+                  children: [
+                    const Text(
+                      'Registro del odontólogo',
+                      style: TextStyle(
+                        fontSize: 26,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 25),
+
+                    TextField(
+                      controller: nameController,
+                      decoration: const InputDecoration(
+                        labelText: 'Nombre completo',
+                        prefixIcon: Icon(Icons.person_outline),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 16),
+
+                    TextField(
+                      controller: emailController,
+                      keyboardType: TextInputType.emailAddress,
+                      decoration: const InputDecoration(
+                        labelText: 'Correo electrónico',
+                        prefixIcon: Icon(Icons.email_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 16),
+
+                    TextField(
+                      controller: passwordController,
+                      obscureText: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Contraseña',
+                        prefixIcon: Icon(Icons.lock_outline),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 16),
+
+                    TextField(
+                      controller: confirmController,
+                      obscureText: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Confirmar contraseña',
+                        prefixIcon: Icon(Icons.lock_outline),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    if (errorMessage != null) ...[
+                      const SizedBox(height: 12),
+                      Text(
+                        errorMessage!,
+                        style: const TextStyle(
+                          color: Colors.red,
+                        ),
+                      ),
+                    ],
+
+                    const SizedBox(height: 24),
+
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: loading ? null : register,
+                        child: Padding(
+                          padding: const EdgeInsets.all(14),
+                          child: loading
+                              ? const SizedBox(
+                                  height: 20,
+                                  width: 20,
+                                  child: CircularProgressIndicator(),
+                                )
+                              : const Text(
+                                  'Crear cuenta',
+                                ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
+    final nombre = user?.displayName?.isNotEmpty == true
+        ? user!.displayName!
+        : 'Odontólogo';
+
+    return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+        title: const Text(
+          'DentCalm',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+        actions: [
+          IconButton(
+            tooltip: 'Cerrar sesión',
+            onPressed: () async {
+              await FirebaseAuth.instance.signOut();
+            },
+            icon: const Icon(Icons.logout),
+          ),
+          const SizedBox(width: 10),
+        ],
+      ),
+
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(32),
+
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+
+          children: [
+
+            Text(
+              'Bienvenido, $nombre',
+              style: const TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF12355B),
+              ),
+            ),
+
+            const SizedBox(height: 8),
+
+            const Text(
+              'Monitorización respiratoria para la atención odontológica',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+
+            const SizedBox(height: 30),
+
+            Row(
+              children: [
+
+                Expanded(
+                  child: _DashboardCard(
+                    icon: Icons.people_alt_outlined,
+                    title: 'Pacientes',
+                    subtitle: 'Registrar y consultar pacientes',
+                    color: const Color(0xFF2D7FF9),
+                    onTap: () {
+                     Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const PatientsScreen(),
+                      ),
+                    );
+                  },
+                ),
+                ),
+
+                const SizedBox(width: 20),
+
+                Expanded(
+                  child: _DashboardCard(
+                    icon: Icons.monitor_heart_outlined,
+                    title: 'Nueva sesión',
+                    subtitle: 'Iniciar monitoreo respiratorio',
+                    color: const Color(0xFF20A86B),
+                    onTap: () {},
+                  ),
+                ),
+
+                const SizedBox(width: 20),
+
+                Expanded(
+                  child: _DashboardCard(
+                    icon: Icons.history,
+                    title: 'Historial',
+                    subtitle: 'Consultar sesiones anteriores',
+                    color: const Color(0xFF8A5CF6),
+                    onTap: () {},
+                  ),
+                ),
+              ],
+            ),
+
+            const SizedBox(height: 30),
+
+            Card(
+              elevation: 0,
+              color: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+
+              child: Padding(
+                padding: const EdgeInsets.all(25),
+
+                child: Row(
+                  children: [
+
+                    Container(
+                      width: 65,
+                      height: 65,
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFE7F0FF),
+                        borderRadius: BorderRadius.circular(18),
+                      ),
+                      child: const Icon(
+                        Icons.air,
+                        size: 35,
+                        color: Color(0xFF2D7FF9),
+                      ),
+                    ),
+
+                    const SizedBox(width: 20),
+
+                    const Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+
+                          Text(
+                            'Estado del sistema',
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                          SizedBox(height: 6),
+
+                          Text(
+                            'Listo para iniciar una sesión de monitoreo.',
+                            style: TextStyle(
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 14,
+                        vertical: 8,
+                      ),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFE6F7EF),
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                      child: const Row(
+                        children: [
+
+                          Icon(
+                            Icons.circle,
+                            size: 10,
+                            color: Colors.green,
+                          ),
+
+                          SizedBox(width: 8),
+
+                          Text(
+                            'Preparado',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.green,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 30),
+
+            const Text(
+              'Resumen',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF12355B),
+              ),
+            ),
+
+            const SizedBox(height: 15),
+
+            Row(
+              children: [
+
+                Expanded(
+                  child: _SummaryCard(
+                    title: 'Pacientes registrados',
+                    value: '0',
+                    icon: Icons.people_outline,
+                  ),
+                ),
+
+                const SizedBox(width: 20),
+
+                Expanded(
+                  child: _SummaryCard(
+                    title: 'Sesiones realizadas',
+                    value: '0',
+                    icon: Icons.assignment_outlined,
+                  ),
+                ),
+
+                const SizedBox(width: 20),
+
+                Expanded(
+                  child: _SummaryCard(
+                    title: 'Sesiones hoy',
+                    value: '0',
+                    icon: Icons.today_outlined,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+// TARJETA PRINCIPAL
+class _DashboardCard extends StatelessWidget {
+
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final Color color;
+  final VoidCallback onTap;
+
+  const _DashboardCard({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    required this.color,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(20),
+
+      child: Card(
+        elevation: 0,
+        color: Colors.white,
+
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+
+        child: Padding(
+          padding: const EdgeInsets.all(25),
+
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+
+            children: [
+
+              Container(
+                width: 60,
+                height: 60,
+
+                decoration: BoxDecoration(
+                  color: color.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+
+                child: Icon(
+                  icon,
+                  size: 32,
+                  color: color,
+                ),
+              ),
+
+              const SizedBox(height: 18),
+
+              Text(
+                title,
+                style: const TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+
+              const SizedBox(height: 6),
+
+              Text(
+                subtitle,
+                style: const TextStyle(
+                  color: Colors.grey,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+// TARJETA DE RESUMEN
+class _SummaryCard extends StatelessWidget {
+
+  final String title;
+  final String value;
+  final IconData icon;
+
+  const _SummaryCard({
+    required this.title,
+    required this.value,
+    required this.icon,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+
+    return Card(
+      elevation: 0,
+      color: Colors.white,
+
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(18),
+      ),
+
+      child: Padding(
+        padding: const EdgeInsets.all(22),
+
+        child: Row(
+          children: [
+
+            Icon(
+              icon,
+              size: 30,
+              color: const Color(0xFF2D7FF9),
+            ),
+
+            const SizedBox(width: 15),
+
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+
+                children: [
+
+                  Text(
+                    value,
+                    style: const TextStyle(
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+--------------------------------------------------------------------------------
+
+// lib/screens/monitoring_screen.dart
+import 'dart:async';
+import 'dart:math';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+
+class MonitoringScreen extends StatefulWidget {
+  final DocumentSnapshot patient;
+
+  const MonitoringScreen({
+    super.key,
+    required this.patient,
+  });
+
+  @override
+  State<MonitoringScreen> createState() => _MonitoringScreenState();
+}
+
+class _MonitoringScreenState extends State<MonitoringScreen> {
+  Timer? timer;
+
+  int segundos = 0;
+  int frActual = 14;
+
+  final List<int> valoresFR = [];
+
+  bool monitoreando = true;
+
+  final Random random = Random();
+
+  @override
+  void initState() {
+    super.initState();
+
+    valoresFR.add(frActual);
+
+    timer = Timer.periodic(
+      const Duration(seconds: 2),
+      (_) {
+        if (!monitoreando) return;
+
+        setState(() {
+          frActual = 13 + random.nextInt(4);
+          segundos += 2;
+          valoresFR.add(frActual);
+        });
+      },
+    );
+  }
+
+  double get frPromedio {
+    if (valoresFR.isEmpty) return 0;
+
+    final suma = valoresFR.reduce(
+      (a, b) => a + b,
+    );
+
+    return suma / valoresFR.length;
+  }
+
+  int get frMinima {
+    if (valoresFR.isEmpty) return frActual;
+
+    return valoresFR.reduce(min);
+  }
+
+  int get frMaxima {
+    if (valoresFR.isEmpty) return frActual;
+
+    return valoresFR.reduce(max);
+  }
+
+  String get tiempoFormateado {
+    final minutos = segundos ~/ 60;
+    final segundosRestantes = segundos % 60;
+
+    return '${minutos.toString().padLeft(2, '0')}:'
+        '${segundosRestantes.toString().padLeft(2, '0')}';
+  }
+
+  void finalizarSesion() {
+    timer?.cancel();
+
+    setState(() {
+      monitoreando = false;
+    });
+
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (_) => FeedbackScreen(
+          patient: widget.patient,
+          frPromedio: frPromedio,
+          frMinima: frMinima,
+          frMaxima: frMaxima,
+          duracion: segundos,
+        ),
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final datos =
+        widget.patient.data() as Map<String, dynamic>;
+
+    final nombre =
+        datos['nombre'] ?? 'Sin nombre';
+
+    return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+
+        title: const Text(
+          'Nueva sesión',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+      ),
+
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(30),
+
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: 950,
+            ),
+
+            child: Column(
+              crossAxisAlignment:
+                  CrossAxisAlignment.start,
+
+              children: [
+
+                // PACIENTE
+                Card(
+                  elevation: 0,
+                  color: Colors.white,
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(20),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(22),
+
+                    child: Row(
+                      children: [
+
+                        Container(
+                          width: 60,
+                          height: 60,
+
+                          decoration: BoxDecoration(
+                            color:
+                                const Color(0xFFE7F0FF),
+                            borderRadius:
+                                BorderRadius.circular(18),
+                          ),
+
+                          child: const Icon(
+                            Icons.person,
+                            size: 32,
+                            color:
+                                Color(0xFF2D7FF9),
+                          ),
+                        ),
+
+                        const SizedBox(width: 18),
+
+                        Column(
+                          crossAxisAlignment:
+                              CrossAxisAlignment.start,
+
+                          children: [
+
+                            const Text(
+                              'Paciente',
+                              style: TextStyle(
+                                color: Colors.grey,
+                              ),
+                            ),
+
+                            const SizedBox(height: 4),
+
+                            Text(
+                              nombre.toString(),
+                              style: const TextStyle(
+                                fontSize: 22,
+                                fontWeight:
+                                    FontWeight.bold,
+                                color:
+                                    Color(0xFF12355B),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // TITULO
+                const Text(
+                  'Monitorización respiratoria',
+                  style: TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF12355B),
+                  ),
+                ),
+
+                const SizedBox(height: 8),
+
+                const Text(
+                  'Frecuencia respiratoria durante la sesión',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // FR PRINCIPAL
+                Card(
+                  elevation: 0,
+                  color: Colors.white,
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(25),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(35),
+
+                    child: Column(
+                      children: [
+
+                        Container(
+                          width: 145,
+                          height: 145,
+
+                          decoration: BoxDecoration(
+                            color:
+                                const Color(0xFFEAF7F1),
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color:
+                                  const Color(
+                                0xFF20A86B,
+                              ),
+                              width: 4,
+                            ),
+                          ),
+
+                          child: Column(
+                            mainAxisAlignment:
+                                MainAxisAlignment.center,
+
+                            children: [
+
+                              Text(
+                                '$frActual',
+                                style: const TextStyle(
+                                  fontSize: 52,
+                                  fontWeight:
+                                      FontWeight.bold,
+                                  color:
+                                      Color(0xFF20A86B),
+                                ),
+                              ),
+
+                              const Text(
+                                'rpm',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+
+                        const SizedBox(height: 20),
+
+                        const Text(
+                          'Frecuencia respiratoria',
+                          style: TextStyle(
+                            fontSize: 19,
+                            fontWeight:
+                                FontWeight.bold,
+                          ),
+                        ),
+
+                        const SizedBox(height: 10),
+
+                        Container(
+                          padding:
+                              const EdgeInsets.symmetric(
+                            horizontal: 18,
+                            vertical: 9,
+                          ),
+
+                          decoration:
+                              BoxDecoration(
+                            color:
+                                const Color(
+                              0xFFE6F7EF,
+                            ),
+                            borderRadius:
+                                BorderRadius.circular(
+                              30,
+                            ),
+                          ),
+
+                          child: Row(
+                            mainAxisSize:
+                                MainAxisSize.min,
+
+                            children: [
+
+                              Container(
+                                width: 10,
+                                height: 10,
+
+                                decoration:
+                                    const BoxDecoration(
+                                  color: Colors.green,
+                                  shape:
+                                      BoxShape.circle,
+                                ),
+                              ),
+
+                              const SizedBox(width: 8),
+
+                              const Text(
+                                'Recibiendo datos',
+                                style: TextStyle(
+                                  color: Colors.green,
+                                  fontWeight:
+                                      FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // GRAFICA SIMULADA
+                Card(
+                  elevation: 0,
+                  color: Colors.white,
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(22),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(25),
+
+                    child: Column(
+                      crossAxisAlignment:
+                          CrossAxisAlignment.start,
+
+                      children: [
+
+                        const Text(
+                          'Señal respiratoria',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight:
+                                FontWeight.bold,
+                          ),
+                        ),
+
+                        const SizedBox(height: 20),
+
+                        SizedBox(
+                          height: 180,
+                          width: double.infinity,
+
+                          child: CustomPaint(
+                            painter:
+                                _BreathingPainter(
+                              segundos: segundos,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // RESUMEN
+                Row(
+                  children: [
+
+                    Expanded(
+                      child: _StatCard(
+                        title: 'Promedio',
+                        value:
+                            '${frPromedio.toStringAsFixed(1)} rpm',
+                        icon:
+                            Icons.analytics_outlined,
+                      ),
+                    ),
+
+                    const SizedBox(width: 15),
+
+                    Expanded(
+                      child: _StatCard(
+                        title: 'Mínima',
+                        value:
+                            '$frMinima rpm',
+                        icon:
+                            Icons.arrow_downward,
+                      ),
+                    ),
+
+                    const SizedBox(width: 15),
+
+                    Expanded(
+                      child: _StatCard(
+                        title: 'Máxima',
+                        value:
+                            '$frMaxima rpm',
+                        icon:
+                            Icons.arrow_upward,
+                      ),
+                    ),
+
+                    const SizedBox(width: 15),
+
+                    Expanded(
+                      child: _StatCard(
+                        title: 'Duración',
+                        value:
+                            tiempoFormateado,
+                        icon:
+                            Icons.timer_outlined,
+                      ),
+                    ),
+                  ],
+                ),
+
+                const SizedBox(height: 30),
+
+                SizedBox(
+                  width: double.infinity,
+
+                  child: ElevatedButton.icon(
+                    onPressed:
+                        monitoreando
+                            ? finalizarSesion
+                            : null,
+
+                    icon: const Icon(
+                      Icons.stop_circle_outlined,
+                    ),
+
+                    label: const Text(
+                      'Finalizar sesión',
+                    ),
+
+                    style:
+                        ElevatedButton.styleFrom(
+                      backgroundColor:
+                          const Color(0xFFD94B4B),
+                      foregroundColor:
+                          Colors.white,
+                      padding:
+                          const EdgeInsets.all(18),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+// =====================================================
+// TARJETA DE ESTADÍSTICA
+// =====================================================
+
+class _StatCard extends StatelessWidget {
+  final String title;
+  final String value;
+  final IconData icon;
+
+  const _StatCard({
+    required this.title,
+    required this.value,
+    required this.icon,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      elevation: 0,
+      color: Colors.white,
+
+      shape: RoundedRectangleBorder(
+        borderRadius:
+            BorderRadius.circular(18),
+      ),
+
+      child: Padding(
+        padding: const EdgeInsets.all(18),
+
+        child: Column(
+          children: [
+
+            Icon(
+              icon,
+              color:
+                  const Color(0xFF2D7FF9),
+              size: 28,
+            ),
+
+            const SizedBox(height: 10),
+
+            Text(
+              value,
+              style: const TextStyle(
+                fontSize: 19,
+                fontWeight:
+                    FontWeight.bold,
+              ),
+            ),
+
+            const SizedBox(height: 4),
+
+            Text(
+              title,
+              style: const TextStyle(
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+// =====================================================
+// GRÁFICA DE RESPIRACIÓN
+// =====================================================
+
+class _BreathingPainter extends CustomPainter {
+  final int segundos;
+
+  _BreathingPainter({
+    required this.segundos,
+  });
+
+  @override
+  void paint(
+    Canvas canvas,
+    Size size,
+  ) {
+    final paint = Paint()
+      ..color =
+          const Color(0xFF2D7FF9)
+      ..strokeWidth = 3
+      ..style = PaintingStyle.stroke;
+
+    final path = Path();
+
+    for (double x = 0; x <= size.width; x++) {
+      final valor =
+          sin(
+            (x / size.width) *
+                8 *
+                pi,
+          );
+
+      final y =
+          size.height / 2 -
+          valor *
+              size.height *
+              0.35;
+
+      if (x == 0) {
+        path.moveTo(x, y);
+      } else {
+        path.lineTo(x, y);
+      }
+    }
+
+    canvas.drawPath(
+      path,
+      paint,
+    );
+
+    final linePaint = Paint()
+      ..color =
+          Colors.grey.withValues(alpha: 0.2)
+      ..strokeWidth = 1;
+
+    canvas.drawLine(
+      Offset(0, size.height / 2),
+      Offset(
+        size.width,
+        size.height / 2,
+      ),
+      linePaint,
+    );
+  }
+
+  @override
+  bool shouldRepaint(
+    covariant _BreathingPainter oldDelegate,
+  ) {
+    return oldDelegate.segundos != segundos;
+  }
+}
+
+
+// =====================================================
+// FEEDBACK
+// =====================================================
+
+class FeedbackScreen extends StatefulWidget {
+  final DocumentSnapshot patient;
+  final double frPromedio;
+  final int frMinima;
+  final int frMaxima;
+  final int duracion;
+
+  const FeedbackScreen({
+    super.key,
+    required this.patient,
+    required this.frPromedio,
+    required this.frMinima,
+    required this.frMaxima,
+    required this.duracion,
+  });
+
+  @override
+  State<FeedbackScreen> createState() =>
+      _FeedbackScreenState();
+}
+
+class _FeedbackScreenState
+    extends State<FeedbackScreen> {
+
+  String? nivelAnsiedad;
+
+  final feedbackController =
+      TextEditingController();
+
+  bool guardando = false;
+
+  Future<void> guardarSesion() async {
+    if (nivelAnsiedad == null ||
+        feedbackController.text
+            .trim()
+            .isEmpty) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Completa el nivel de ansiedad y el feedback.',
+          ),
+        ),
+      );
+
+      return;
+    }
+
+    setState(() {
+      guardando = true;
+    });
+
+    try {
+      final user =
+          FirebaseAuth.instance.currentUser;
+
+      await FirebaseFirestore.instance
+          .collection('sesiones')
+          .add({
+        'patientId':
+            widget.patient.id,
+        'dentistId':
+            user?.uid,
+        'frPromedio':
+            widget.frPromedio,
+        'frMinima':
+            widget.frMinima,
+        'frMaxima':
+            widget.frMaxima,
+        'duracionSegundos':
+            widget.duracion,
+        'nivelAnsiedad':
+            nivelAnsiedad,
+        'feedback':
+            feedbackController.text.trim(),
+        'fecha':
+            FieldValue.serverTimestamp(),
+      });
+
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Sesión guardada correctamente.',
+            ),
+          ),
+        );
+
+        Navigator.popUntil(
+          context,
+          (route) => route.isFirst,
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(
+          SnackBar(
+            content: Text(
+              'Error al guardar la sesión: $e',
+            ),
+          ),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          guardando = false;
+        });
+      }
+    }
+  }
+
+  @override
+  void dispose() {
+    feedbackController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+
+    return Scaffold(
+      backgroundColor:
+          const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        backgroundColor:
+            Colors.white,
+        elevation: 0,
+
+        title: const Text(
+          'Finalizar sesión',
+          style: TextStyle(
+            fontWeight:
+                FontWeight.bold,
+            color:
+                Color(0xFF12355B),
+          ),
+        ),
+      ),
+
+      body: Center(
+        child: SingleChildScrollView(
+          padding:
+              const EdgeInsets.all(30),
+
+          child: ConstrainedBox(
+            constraints:
+                const BoxConstraints(
+              maxWidth: 700,
+            ),
+
+            child: Card(
+              elevation: 0,
+              color: Colors.white,
+
+              shape:
+                  RoundedRectangleBorder(
+                borderRadius:
+                    BorderRadius.circular(
+                  22,
+                ),
+              ),
+
+              child: Padding(
+                padding:
+                    const EdgeInsets.all(
+                  30,
+                ),
+
+                child: Column(
+                  crossAxisAlignment:
+                      CrossAxisAlignment.start,
+
+                  children: [
+
+                    const Text(
+                      'Resumen de la sesión',
+                      style: TextStyle(
+                        fontSize: 26,
+                        fontWeight:
+                            FontWeight.bold,
+                        color:
+                            Color(0xFF12355B),
+                      ),
+                    ),
+
+                    const SizedBox(height: 25),
+
+                    Row(
+                      children: [
+
+                        Expanded(
+                          child:
+                              _ResultCard(
+                            title:
+                                'FR promedio',
+                            value:
+                                '${widget.frPromedio.toStringAsFixed(1)} rpm',
+                            icon:
+                                Icons.air,
+                          ),
+                        ),
+
+                        const SizedBox(
+                            width: 15),
+
+                        Expanded(
+                          child:
+                              _ResultCard(
+                            title:
+                                'FR mínima',
+                            value:
+                                '${widget.frMinima} rpm',
+                            icon:
+                                Icons
+                                    .arrow_downward,
+                          ),
+                        ),
+
+                        const SizedBox(
+                            width: 15),
+
+                        Expanded(
+                          child:
+                              _ResultCard(
+                            title:
+                                'FR máxima',
+                            value:
+                                '${widget.frMaxima} rpm',
+                            icon:
+                                Icons
+                                    .arrow_upward,
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    const SizedBox(height: 30),
+
+                    const Text(
+                      'Nivel de ansiedad observado',
+                      style: TextStyle(
+                        fontSize: 19,
+                        fontWeight:
+                            FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 15),
+
+                    DropdownButtonFormField<
+                        String>(
+                      initialValue:
+                          nivelAnsiedad,
+
+                      decoration:
+                          const InputDecoration(
+                        border:
+                            OutlineInputBorder(),
+                        prefixIcon:
+                            Icon(
+                          Icons
+                              .sentiment_satisfied_alt_outlined,
+                        ),
+                      ),
+
+                      items: const [
+                        DropdownMenuItem(
+                          value: 'Bajo',
+                          child:
+                              Text('Bajo'),
+                        ),
+                        DropdownMenuItem(
+                          value: 'Moderado',
+                          child:
+                              Text('Moderado'),
+                        ),
+                        DropdownMenuItem(
+                          value: 'Alto',
+                          child:
+                              Text('Alto'),
+                        ),
+                      ],
+
+                      onChanged:
+                          (value) {
+                        setState(() {
+                          nivelAnsiedad =
+                              value;
+                        });
+                      },
+                    ),
+
+                    const SizedBox(height: 25),
+
+                    const Text(
+                      'Feedback del odontólogo',
+                      style: TextStyle(
+                        fontSize: 19,
+                        fontWeight:
+                            FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 15),
+
+                    TextField(
+                      controller:
+                          feedbackController,
+
+                      maxLines: 5,
+
+                      decoration:
+                          const InputDecoration(
+                        hintText:
+                            'Describe brevemente cómo fue la sesión y el nivel de ansiedad observado...',
+                        border:
+                            OutlineInputBorder(),
+                        alignLabelWithHint:
+                            true,
+                      ),
+                    ),
+
+                    const SizedBox(height: 30),
+
+                    SizedBox(
+                      width:
+                          double.infinity,
+
+                      child:
+                          ElevatedButton.icon(
+                        onPressed:
+                            guardando
+                                ? null
+                                : guardarSesion,
+
+                        icon: guardando
+                            ? const SizedBox(
+                                width: 20,
+                                height: 20,
+                                child:
+                                    CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                ),
+                              )
+                            : const Icon(
+                                Icons
+                                    .save_outlined,
+                              ),
+
+                        label: Text(
+                          guardando
+                              ? 'Guardando...'
+                              : 'Guardar sesión',
+                        ),
+
+                        style:
+                            ElevatedButton
+                                .styleFrom(
+                          padding:
+                              const EdgeInsets
+                                  .all(
+                            17,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ResultCard
+    extends StatelessWidget {
+  final String title;
+  final String value;
+  final IconData icon;
+
+  const _ResultCard({
+    required this.title,
+    required this.value,
+    required this.icon,
+  });
+
+  @override
+  Widget build(
+    BuildContext context,
+  ) {
+    return Container(
+      padding:
+          const EdgeInsets.all(18),
+
+      decoration:
+          BoxDecoration(
+        color:
+            const Color(0xFFF4F8FC),
+        borderRadius:
+            BorderRadius.circular(16),
+      ),
+
+      child: Column(
+        children: [
+
+          Icon(
+            icon,
+            color:
+                const Color(0xFF2D7FF9),
+          ),
+
+          const SizedBox(height: 8),
+
+          Text(
+            value,
+            style:
+                const TextStyle(
+              fontSize: 20,
+              fontWeight:
+                  FontWeight.bold,
+            ),
+          ),
+
+          const SizedBox(height: 4),
+
+          Text(
+            title,
+            textAlign:
+                TextAlign.center,
+            style:
+                const TextStyle(
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+--------------------------------------------------------------------------------
+
+// lib/screens/new_patient_screen.dart
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+
+class NewPatientScreen extends StatefulWidget {
+  const NewPatientScreen({super.key});
+
+  @override
+  State<NewPatientScreen> createState() => _NewPatientScreenState();
+}
+
+class _NewPatientScreenState extends State<NewPatientScreen> {
+  final nombreController = TextEditingController();
+  final codigoController = TextEditingController();
+  final edadController = TextEditingController();
+  final notasController = TextEditingController();
+
+  String? sexo;
+  DateTime? fechaNacimiento;
+
+  bool guardando = false;
+
+  Future<void> seleccionarFecha() async {
+    final fecha = await showDatePicker(
+      context: context,
+      initialDate: DateTime.now(),
+      firstDate: DateTime(1900),
+      lastDate: DateTime.now(),
+    );
+
+    if (fecha != null) {
+      setState(() {
+        fechaNacimiento = fecha;
+      });
+    }
+  }
+
+  Future<void> guardarPaciente() async {
+    if (nombreController.text.trim().isEmpty ||
+        edadController.text.trim().isEmpty ||
+        sexo == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Completa nombre, edad y sexo.',
+          ),
+        ),
+      );
+      return;
+    }
+
+    final edad = int.tryParse(
+      edadController.text.trim(),
+    );
+
+    if (edad == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'La edad debe ser un número entero.',
+          ),
+        ),
+      );
+      return;
+    }
+
+    setState(() {
+      guardando = true;
+    });
+
+    try {
+      final user = FirebaseAuth.instance.currentUser;
+
+      await FirebaseFirestore.instance
+          .collection('pacientes')
+          .add({
+        'nombre': nombreController.text.trim(),
+        'codigo': codigoController.text.trim(),
+        'edad': edad,
+        'sexo': sexo,
+        'fechaNacimiento': fechaNacimiento != null
+            ? Timestamp.fromDate(fechaNacimiento!)
+            : null,
+        'notas': notasController.text.trim(),
+        'dentistId': user?.uid,
+        'createdAt': FieldValue.serverTimestamp(),
+      });
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Paciente registrado correctamente.',
+            ),
+          ),
+        );
+
+        Navigator.pop(context);
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              'Error al guardar: $e',
+            ),
+          ),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          guardando = false;
+        });
+      }
+    }
+  }
+
+  @override
+  void dispose() {
+    nombreController.dispose();
+    codigoController.dispose();
+    edadController.dispose();
+    notasController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        title: const Text(
+          'Nuevo paciente',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+        backgroundColor: Colors.white,
+        elevation: 0,
+      ),
+
+      body: Center(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(30),
+
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: 650,
+            ),
+
+            child: Card(
+              elevation: 0,
+
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+
+              child: Padding(
+                padding: const EdgeInsets.all(30),
+
+                child: Column(
+                  crossAxisAlignment:
+                      CrossAxisAlignment.start,
+
+                  children: [
+
+                    const Text(
+                      'Datos del paciente',
+                      style: TextStyle(
+                        fontSize: 26,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF12355B),
+                      ),
+                    ),
+
+                    const SizedBox(height: 25),
+
+                    TextField(
+                      controller: nombreController,
+                      decoration: const InputDecoration(
+                        labelText: 'Nombre completo',
+                        prefixIcon:
+                            Icon(Icons.person_outline),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 18),
+
+                    TextField(
+                      controller: codigoController,
+                      decoration: const InputDecoration(
+                        labelText: 'Código del paciente',
+                        hintText: 'Ej. PAC-001',
+                        prefixIcon:
+                            Icon(Icons.badge_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 18),
+
+                    TextField(
+                      controller: edadController,
+                      keyboardType:
+                          TextInputType.number,
+                      decoration: const InputDecoration(
+                        labelText: 'Edad',
+                        suffixText: 'años',
+                        prefixIcon:
+                            Icon(Icons.cake_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 18),
+
+                    DropdownButtonFormField<String>(
+                      value: sexo,
+                      decoration: const InputDecoration(
+                        labelText: 'Sexo',
+                        prefixIcon:
+                            Icon(Icons.wc_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                      items: const [
+                        DropdownMenuItem(
+                          value: 'F',
+                          child: Text('Femenino'),
+                        ),
+                        DropdownMenuItem(
+                          value: 'M',
+                          child: Text('Masculino'),
+                        ),
+                      ],
+                      onChanged: (value) {
+                        setState(() {
+                          sexo = value;
+                        });
+                      },
+                    ),
+
+                    const SizedBox(height: 18),
+
+                    InkWell(
+                      onTap: seleccionarFecha,
+
+                      child: InputDecorator(
+                        decoration:
+                            const InputDecoration(
+                          labelText:
+                              'Fecha de nacimiento',
+                          prefixIcon: Icon(
+                            Icons.calendar_today_outlined,
+                          ),
+                          border: OutlineInputBorder(),
+                        ),
+
+                        child: Text(
+                          fechaNacimiento == null
+                              ? 'Seleccionar fecha'
+                              : '${fechaNacimiento!.day.toString().padLeft(2, '0')}/'
+                                '${fechaNacimiento!.month.toString().padLeft(2, '0')}/'
+                                '${fechaNacimiento!.year}',
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(height: 18),
+
+                    TextField(
+                      controller: notasController,
+                      maxLines: 4,
+                      decoration: const InputDecoration(
+                        labelText: 'Notas',
+                        alignLabelWithHint: true,
+                        prefixIcon:
+                            Icon(Icons.notes_outlined),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+
+                    const SizedBox(height: 30),
+
+                    SizedBox(
+                      width: double.infinity,
+
+                      child: ElevatedButton.icon(
+                        onPressed:
+                            guardando
+                                ? null
+                                : guardarPaciente,
+
+                        icon: guardando
+                            ? const SizedBox(
+                                width: 20,
+                                height: 20,
+                                child:
+                                    CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                ),
+                              )
+                            : const Icon(
+                                Icons.save_outlined,
+                              ),
+
+                        label: Text(
+                          guardando
+                              ? 'Guardando...'
+                              : 'Guardar paciente',
+                        ),
+
+                        style:
+                            ElevatedButton.styleFrom(
+                          padding:
+                              const EdgeInsets.all(18),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+--------------------------------------------------------------------------------
+
+// lib/screens/patients_screen.dart
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'new_patient_screen.dart';
+import 'patient_detail_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+class PatientsScreen extends StatelessWidget {
+  const PatientsScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+
+        title: const Text(
+          'Pacientes',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 15),
+            child: ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const NewPatientScreen(),
+                  ),
+                );
+              },
+              icon: const Icon(Icons.add),
+              label: const Text('Nuevo paciente'),
+            ),
+          ),
+        ],
+      ),
+
+      body: StreamBuilder<QuerySnapshot>(
+        stream: FirebaseFirestore.instance
+    .collection('pacientes')
+    .where(
+      'dentistId',
+      isEqualTo: FirebaseAuth.instance.currentUser?.uid,
+    )
+    .snapshots(),
+
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
+          }
+
+          if (snapshot.hasError) {
+            return Center(
+              child: Text(
+                'Error al cargar pacientes:\n${snapshot.error}',
+                textAlign: TextAlign.center,
+              ),
+            );
+          }
+
+          final pacientes = snapshot.data?.docs ?? [];
+
+          if (pacientes.isEmpty) {
+            return const Center(
+              child: Text(
+                'No hay pacientes registrados.',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.grey,
+                ),
+              ),
+            );
+          }
+
+          return ListView.builder(
+            padding: const EdgeInsets.all(24),
+            itemCount: pacientes.length,
+
+            itemBuilder: (context, index) {
+              final paciente = pacientes[index];
+
+              final datos =
+                  paciente.data() as Map<String, dynamic>;
+
+              final nombre =
+                  datos['nombre'] ?? 'Sin nombre';
+
+              final edad =
+                  datos['edad'] ?? '-';
+
+              final sexo =
+                  datos['sexo'] ?? '-';
+
+              return InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => PatientDetailScreen(
+                        patient: paciente,
+                      ),
+                    ),
+                  );
+                },
+
+                borderRadius: BorderRadius.circular(18),
+
+                child: Card(
+                  elevation: 0,
+                  margin: const EdgeInsets.only(bottom: 15),
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(20),
+
+                    child: Row(
+                      children: [
+
+                        Container(
+                          width: 55,
+                          height: 55,
+
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFE7F0FF),
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+
+                          child: const Icon(
+                            Icons.person,
+                            color: Color(0xFF2D7FF9),
+                            size: 30,
+                          ),
+                        ),
+
+                        const SizedBox(width: 16),
+
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment:
+                                CrossAxisAlignment.start,
+
+                            children: [
+
+                              Text(
+                                nombre.toString(),
+                                style: const TextStyle(
+                                  fontSize: 19,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+
+                              const SizedBox(height: 5),
+
+                              Text(
+                                '$edad años  •  Sexo: $sexo',
+                                style: const TextStyle(
+                                  color: Colors.grey,
+                                ),
+                              ),
+
+                              const SizedBox(height: 4),
+
+                              Text(
+                                'ID: ${paciente.id}',
+                                style: const TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+
+                        const Icon(
+                          Icons.chevron_right,
+                          color: Colors.grey,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              );
+            },
+          );
+        },
+      ),
+    );
+  }
+}
+
+--------------------------------------------------------------------------------
+
+// lib/screens/patient_detail_screen.dart
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'monitoring_screen.dart';
+
+class PatientDetailScreen extends StatelessWidget {
+  final DocumentSnapshot patient;
+
+  const PatientDetailScreen({
+    super.key,
+    required this.patient,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final datos =
+        patient.data() as Map<String, dynamic>;
+
+    final nombre =
+        datos['nombre'] ?? 'Sin nombre';
+
+    final edad =
+        datos['edad'] ?? '-';
+
+    final sexo =
+        datos['sexo'] ?? '-';
+
+    final codigo =
+        datos['codigo'] ?? patient.id;
+
+    final notas =
+        datos['notas'] ?? '';
+
+    return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FC),
+
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back,
+            color: Color(0xFF12355B),
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+
+        title: const Text(
+          'Paciente',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+      ),
+
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(30),
+
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: 900,
+            ),
+
+            child: Column(
+              crossAxisAlignment:
+                  CrossAxisAlignment.start,
+
+              children: [
+
+                // =====================================================
+                // DATOS PRINCIPALES DEL PACIENTE
+                // =====================================================
+
+                Card(
+                  elevation: 0,
+                  color: Colors.white,
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(22),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(30),
+
+                    child: Row(
+                      children: [
+
+                        Container(
+                          width: 85,
+                          height: 85,
+
+                          decoration: BoxDecoration(
+                            color:
+                                const Color(0xFFE7F0FF),
+                            borderRadius:
+                                BorderRadius.circular(22),
+                          ),
+
+                          child: const Icon(
+                            Icons.person,
+                            size: 45,
+                            color:
+                                Color(0xFF2D7FF9),
+                          ),
+                        ),
+
+                        const SizedBox(width: 25),
+
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment:
+                                CrossAxisAlignment.start,
+
+                            children: [
+
+                              Text(
+                                nombre.toString(),
+                                style: const TextStyle(
+                                  fontSize: 30,
+                                  fontWeight:
+                                      FontWeight.bold,
+                                  color:
+                                      Color(0xFF12355B),
+                                ),
+                              ),
+
+                              const SizedBox(height: 8),
+
+                              Text(
+                                '$edad años  •  Sexo: $sexo',
+                                style:
+                                    const TextStyle(
+                                  fontSize: 17,
+                                  color: Colors.grey,
+                                ),
+                              ),
+
+                              const SizedBox(height: 5),
+
+                              Text(
+                                'Código: $codigo',
+                                style:
+                                    const TextStyle(
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // =====================================================
+                // INFORMACIÓN DEL PACIENTE
+                // =====================================================
+
+                Card(
+                  elevation: 0,
+                  color: Colors.white,
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(22),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(30),
+
+                    child: Column(
+                      crossAxisAlignment:
+                          CrossAxisAlignment.start,
+
+                      children: [
+
+                        const Text(
+                          'Información del paciente',
+                          style: TextStyle(
+                            fontSize: 22,
+                            fontWeight:
+                                FontWeight.bold,
+                            color:
+                                Color(0xFF12355B),
+                          ),
+                        ),
+
+                        const SizedBox(height: 20),
+
+                        _InfoRow(
+                          icon: Icons.cake_outlined,
+                          title: 'Edad',
+                          value: '$edad años',
+                        ),
+
+                        _InfoRow(
+                          icon: Icons.wc_outlined,
+                          title: 'Sexo',
+                          value: sexo.toString(),
+                        ),
+
+                        _InfoRow(
+                          icon:
+                              Icons.badge_outlined,
+                          title: 'Código',
+                          value: codigo.toString(),
+                        ),
+
+                        if (notas
+                            .toString()
+                            .isNotEmpty)
+                          _InfoRow(
+                            icon:
+                                Icons.notes_outlined,
+                            title: 'Notas',
+                            value:
+                                notas.toString(),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 25),
+
+                // =====================================================
+                // NUEVA SESIÓN
+                // =====================================================
+
+                Card(
+                  elevation: 0,
+                  color:
+                      const Color(0xFFEAF7F1),
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius:
+                        BorderRadius.circular(22),
+                  ),
+
+                  child: Padding(
+                    padding: const EdgeInsets.all(30),
+
+                    child: Row(
+                      children: [
+
+                        Container(
+                          width: 65,
+                          height: 65,
+
+                          decoration:
+                              BoxDecoration(
+                            color:
+                                Colors.white,
+                            borderRadius:
+                                BorderRadius.circular(
+                              18,
+                            ),
+                          ),
+
+                          child: const Icon(
+                            Icons
+                                .monitor_heart_outlined,
+                            size: 35,
+                            color:
+                                Color(0xFF20A86B),
+                          ),
+                        ),
+
+                        const SizedBox(width: 20),
+
+                        const Expanded(
+                          child: Column(
+                            crossAxisAlignment:
+                                CrossAxisAlignment
+                                    .start,
+
+                            children: [
+
+                              Text(
+                                'Nueva sesión',
+                                style: TextStyle(
+                                  fontSize: 21,
+                                  fontWeight:
+                                      FontWeight.bold,
+                                  color:
+                                      Color(0xFF145A3A),
+                                ),
+                              ),
+
+                              SizedBox(height: 5),
+
+                              Text(
+                                'Iniciar monitorización respiratoria',
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+
+                        ElevatedButton.icon(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) =>
+                                    MonitoringScreen(
+                                  patient: patient,
+                                ),
+                              ),
+                            );
+                          },
+
+                          icon: const Icon(
+                            Icons.play_arrow,
+                          ),
+
+                          label: const Text(
+                            'Iniciar',
+                          ),
+
+                          style:
+                              ElevatedButton
+                                  .styleFrom(
+                            backgroundColor:
+                                const Color(
+                              0xFF20A86B,
+                            ),
+                            foregroundColor:
+                                Colors.white,
+                            padding:
+                                const EdgeInsets
+                                    .symmetric(
+                              horizontal: 20,
+                              vertical: 15,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 30),
+
+                // =====================================================
+                // HISTORIAL DE SESIONES
+                // =====================================================
+
+                const Text(
+                  'Historial de sesiones',
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF12355B),
+                  ),
+                ),
+
+                const SizedBox(height: 15),
+
+                StreamBuilder<QuerySnapshot>(
+                  stream: FirebaseFirestore.instance
+                      .collection('sesiones')
+                      .where(
+                        'patientId',
+                        isEqualTo: patient.id,
+                      )
+                      .snapshots(),
+
+                  builder: (context, snapshot) {
+
+                    // -------------------------------------------------
+                    // CARGANDO
+                    // -------------------------------------------------
+
+                    if (snapshot.connectionState ==
+                        ConnectionState.waiting) {
+                      return Card(
+                        elevation: 0,
+                        color: Colors.white,
+
+                        shape:
+                            RoundedRectangleBorder(
+                          borderRadius:
+                              BorderRadius.circular(
+                            18,
+                          ),
+                        ),
+
+                        child: const Padding(
+                          padding:
+                              EdgeInsets.all(30),
+
+                          child: Center(
+                            child:
+                                CircularProgressIndicator(),
+                          ),
+                        ),
+                      );
+                    }
+
+                    // -------------------------------------------------
+                    // ERROR
+                    // -------------------------------------------------
+
+                    if (snapshot.hasError) {
+                      return Card(
+                        elevation: 0,
+                        color: Colors.white,
+
+                        shape:
+                            RoundedRectangleBorder(
+                          borderRadius:
+                              BorderRadius.circular(
+                            18,
+                          ),
+                        ),
+
+                        child: Padding(
+                          padding:
+                              const EdgeInsets.all(
+                            25,
+                          ),
+
+                          child: Text(
+                            'Error al cargar las sesiones:\n'
+                            '${snapshot.error}',
+                            textAlign:
+                                TextAlign.center,
+                          ),
+                        ),
+                      );
+                    }
+
+                    // -------------------------------------------------
+                    // OBTENER SESIONES
+                    // -------------------------------------------------
+
+                    final sesiones =
+                        snapshot.data?.docs ?? [];
+
+                    // -------------------------------------------------
+                    // SIN SESIONES
+                    // -------------------------------------------------
+
+                    if (sesiones.isEmpty) {
+                      return Card(
+                        elevation: 0,
+                        color: Colors.white,
+
+                        shape:
+                            RoundedRectangleBorder(
+                          borderRadius:
+                              BorderRadius.circular(
+                            18,
+                          ),
+                        ),
+
+                        child: const Padding(
+                          padding:
+                              EdgeInsets.all(25),
+
+                          child: Center(
+                            child: Column(
+                              children: [
+
+                                Icon(
+                                  Icons.history,
+                                  size: 45,
+                                  color: Colors.grey,
+                                ),
+
+                                SizedBox(height: 12),
+
+                                Text(
+                                  'Este paciente todavía no tiene sesiones.',
+                                  style: TextStyle(
+                                    color: Colors.grey,
+                                    fontSize: 16,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      );
+                    }
+
+                    // -------------------------------------------------
+                    // MOSTRAR SESIONES
+                    // -------------------------------------------------
+
+                    return Column(
+                      children: sesiones.map(
+                        (sesion) {
+
+                          final datos =
+                              sesion.data()
+                                  as Map<String, dynamic>;
+
+                          final frPromedio =
+                              datos['frPromedio'] ?? '-';
+
+                          final frMinima =
+                              datos['frMinima'] ?? '-';
+
+                          final frMaxima =
+                              datos['frMaxima'] ?? '-';
+
+                          final duracion =
+                              (datos[
+                                      'duracionSegundos']
+                                  as num?)
+                              ?.toInt() ??
+                              0;
+
+                          final ansiedad =
+                              datos['nivelAnsiedad'] ??
+                                  '-';
+
+                          final feedback =
+                              datos['feedback'] ??
+                                  '';
+
+                          final fecha =
+                              datos['fecha']
+                                  is Timestamp
+                                  ? datos['fecha']
+                                      as Timestamp
+                                  : null;
+
+                          String fechaTexto =
+                              'Fecha no disponible';
+
+                          if (fecha != null) {
+                            final date =
+                                fecha.toDate();
+
+                            fechaTexto =
+                                '${date.day.toString().padLeft(2, '0')}/'
+                                '${date.month.toString().padLeft(2, '0')}/'
+                                '${date.year} '
+                                '${date.hour.toString().padLeft(2, '0')}:'
+                                '${date.minute.toString().padLeft(2, '0')}';
+                          }
+
+                          final minutos =
+                              duracion ~/ 60;
+
+                          final segundos =
+                              duracion % 60;
+
+                          return Card(
+                            elevation: 0,
+                            color: Colors.white,
+
+                            margin:
+                                const EdgeInsets.only(
+                              bottom: 15,
+                            ),
+
+                            shape:
+                                RoundedRectangleBorder(
+                              borderRadius:
+                                  BorderRadius.circular(
+                                18,
+                              ),
+                            ),
+
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.all(
+                                22,
+                              ),
+
+                              child: Column(
+                                crossAxisAlignment:
+                                    CrossAxisAlignment
+                                        .start,
+
+                                children: [
+
+                                  // ENCABEZADO
+                                  Row(
+                                    children: [
+
+                                      Container(
+                                        width: 50,
+                                        height: 50,
+
+                                        decoration:
+                                            BoxDecoration(
+                                          color:
+                                              const Color(
+                                            0xFFE7F0FF,
+                                          ),
+                                          borderRadius:
+                                              BorderRadius
+                                                  .circular(
+                                            15,
+                                          ),
+                                        ),
+
+                                        child:
+                                            const Icon(
+                                          Icons
+                                              .monitor_heart_outlined,
+                                          color:
+                                              Color(
+                                            0xFF2D7FF9,
+                                          ),
+                                        ),
+                                      ),
+
+                                      const SizedBox(
+                                          width: 15),
+
+                                      const Expanded(
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment
+                                                  .start,
+
+                                          children: [
+
+                                            Text(
+                                              'Sesión de monitorización',
+                                              style:
+                                                  TextStyle(
+                                                fontSize:
+                                                    18,
+                                                fontWeight:
+                                                    FontWeight
+                                                        .bold,
+                                                color:
+                                                    Color(
+                                                  0xFF12355B,
+                                                ),
+                                              ),
+                                            ),
+
+                                            SizedBox(
+                                                height: 4),
+
+                                            Text(
+                                              'Registro guardado',
+                                              style:
+                                                  TextStyle(
+                                                color:
+                                                    Colors
+                                                        .grey,
+                                                fontSize:
+                                                    13,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+
+                                  const SizedBox(
+                                      height: 20),
+
+                                  // FECHA
+                                  Text(
+                                    fechaTexto,
+                                    style:
+                                        const TextStyle(
+                                      color: Colors.grey,
+                                      fontSize: 13,
+                                    ),
+                                  ),
+
+                                  const SizedBox(
+                                      height: 18),
+
+                                  // DATOS DE FR
+                                  Row(
+                                    children: [
+
+                                      Expanded(
+                                        child:
+                                            _SessionData(
+                                          title:
+                                              'FR promedio',
+                                          value:
+                                              '$frPromedio rpm',
+                                        ),
+                                      ),
+
+                                      Expanded(
+                                        child:
+                                            _SessionData(
+                                          title:
+                                              'FR mínima',
+                                          value:
+                                              '$frMinima rpm',
+                                        ),
+                                      ),
+
+                                      Expanded(
+                                        child:
+                                            _SessionData(
+                                          title:
+                                              'FR máxima',
+                                          value:
+                                              '$frMaxima rpm',
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+
+                                  const SizedBox(
+                                      height: 18),
+
+                                  // DURACIÓN
+                                  _SessionInfoRow(
+                                    icon:
+                                        Icons
+                                            .timer_outlined,
+                                    title:
+                                        'Duración',
+                                    value:
+                                        '${minutos.toString().padLeft(2, '0')}:'
+                                        '${segundos.toString().padLeft(2, '0')}',
+                                  ),
+
+                                  // ANSIEDAD
+                                  _SessionInfoRow(
+                                    icon: Icons
+                                        .sentiment_satisfied_alt_outlined,
+                                    title:
+                                        'Ansiedad',
+                                    value:
+                                        ansiedad.toString(),
+                                  ),
+
+                                  // FEEDBACK
+                                  if (feedback
+                                      .toString()
+                                      .isNotEmpty)
+                                    _SessionInfoRow(
+                                      icon: Icons
+                                          .notes_outlined,
+                                      title:
+                                          'Feedback',
+                                      value:
+                                          feedback
+                                              .toString(),
+                                    ),
+                                ],
+                              ),
+                            ),
+                          );
+                        },
+                      ).toList(),
+                    );
+                  },
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+// =====================================================
+// FILA DE INFORMACIÓN DEL PACIENTE
+// =====================================================
+
+class _InfoRow extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String value;
+
+  const _InfoRow({
+    required this.icon,
+    required this.title,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding:
+          const EdgeInsets.only(bottom: 18),
+
+      child: Row(
+        crossAxisAlignment:
+            CrossAxisAlignment.start,
+
+        children: [
+
+          Icon(
+            icon,
+            color: const Color(0xFF2D7FF9),
+          ),
+
+          const SizedBox(width: 15),
+
+          SizedBox(
+            width: 120,
+
+            child: Text(
+              title,
+              style: const TextStyle(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+
+          Expanded(
+            child: Text(
+              value,
+              style: const TextStyle(
+                color: Colors.grey,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
+// =====================================================
+// DATO DE SESIÓN
+// =====================================================
+
+class _SessionData extends StatelessWidget {
+  final String title;
+  final String value;
+
+  const _SessionData({
+    required this.title,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment:
+          CrossAxisAlignment.start,
+
+      children: [
+
+        Text(
+          value,
+          style: const TextStyle(
+            fontSize: 17,
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF12355B),
+          ),
+        ),
+
+        const SizedBox(height: 3),
+
+        Text(
+          title,
+          style: const TextStyle(
+            color: Colors.grey,
+            fontSize: 12,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+
+// =====================================================
+// FILA DE INFORMACIÓN DE SESIÓN
+// =====================================================
+
+class _SessionInfoRow extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String value;
+
+  const _SessionInfoRow({
+    required this.icon,
+    required this.title,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding:
+          const EdgeInsets.only(bottom: 10),
+
+      child: Row(
+        crossAxisAlignment:
+            CrossAxisAlignment.start,
+
+        children: [
+
+          Icon(
+            icon,
+            size: 20,
+            color: const Color(0xFF2D7FF9),
+          ),
+
+          const SizedBox(width: 10),
+
+          SizedBox(
+            width: 90,
+
+            child: Text(
+              title,
+              style: const TextStyle(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+
+          Expanded(
+            child: Text(
+              value,
+              style: const TextStyle(
+                color: Colors.grey,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+--------------------------------------------------------------------------------
+
+// test/widget_test.dart
+import 'package:flutter_test/flutter_test.dart';
+import 'package:app_odontologo/main.dart';
+
+void main() {
+  testWidgets('DentCalm inicia correctamente', (WidgetTester tester) async {
+    await tester.pumpWidget(const DentCalmApp());
+
+    expect(find.text('DentCalm'), findsOneWidget);
+  });
+}
+
+
+--------------------------------------------------------------------------------
+
+// web/index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="app_odontologo">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>app_odontologo</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
+
+
+--------------------------------------------------------------------------------
+
+// web/manifest.json
+{
+    "name": "app_odontologo",
+    "short_name": "app_odontologo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
+
+
+--------------------------------------------------------------------------------
+

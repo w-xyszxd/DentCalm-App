@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514607329104",
+    "project_id": "dentcalm",
+    "storage_bucket": "dentcalm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514607329104:android:ed82e9f488ee1d5be70655",
+        "android_client_info": {
+          "package_name": "com.example.app_odontologo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_KQ_TSsWBd7_hEvbLB1VZzP5tZNEVrGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
